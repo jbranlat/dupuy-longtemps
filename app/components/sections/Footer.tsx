@@ -25,10 +25,10 @@ export default function Footer() {
                             Plombier, chauffagiste depuis 3 générations. <br />Dépannage et entretien chaudière gaz. <br />Création de salle de bain projet clé en main                        </p>
                     </div>
                     <div className="flex items-center gap-6 text-[13px]">
-                        <a href="/mentions-legales" className="text-gray-400 hover:text-clim-neon transition-colors">
+                        <a href="/mentions-legales" className="text-gray-400 hover:text-plomb-eau transition-colors">
                             Mentions Légales
                         </a>
-                        <a href="/confidentialite" className="text-gray-400 hover:text-clim-neon transition-colors">
+                        <a href="/confidentialite" className="text-gray-400 hover:text-plomb-eau transition-colors">
                             Confidentialité
                         </a>
                     </div>

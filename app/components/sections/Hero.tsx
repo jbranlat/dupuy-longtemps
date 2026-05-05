@@ -36,6 +36,7 @@ export default function Hero() {
                         src="/illustration/hero-plomb.png"
                         alt="Expert Plombier"
                         fill
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         className="object-cover z-10 rounded-[2rem] shadow-2xl animate-in fade-in zoom-in duration-1000"
                         priority
                     />
@@ -55,8 +56,12 @@ export default function Hero() {
                         />
                     </div>
 
-                    <span className="inline-block px-4 py-1 mb-6 text-sm font-medium tracking-wider text-white uppercase bg-plomb-eau/60 rounded-full">
-                       Plombier chauffagiste sur Bordeaux et sa région
+                    <span className="hidden md:inline-block px-4 py-1 mb-6 text-sm font-medium tracking-wider text-white uppercase bg-plomb-eau/60 rounded-full">
+                        Plombier chauffagiste sur Bordeaux et sa région
+                    </span>
+
+                    <span className="md:hidden inline-block px-4 py-1 mb-6 text-sm font-medium tracking-wider text-white uppercase bg-plomb-eau/60 rounded-full">
+                        Plombier chauffagiste
                     </span>
                    <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-plomb-base leading-[1.1] mb-6 tracking-tight">
                        Installation, Dépannage
@@ -85,7 +90,7 @@ export default function Hero() {
 
               {/*  <div className="w-full mt-20">
                     <div className="w-full max-w-5xl mx-auto bg-white/[0.03] backdrop-blur-md border border-white/10 rounded-3xl py-8 overflow-hidden">
-                        <p className="text-center text-[10px] font-bold text-clim-neon uppercase tracking-[0.3em] mb-8 opacity-80">
+                        <p className="text-center text-[10px] font-bold text-plomb-eau uppercase tracking-[0.3em] mb-8 opacity-80">
                             Installateur Agréé & Partenaires Officiels
                         </p>
 

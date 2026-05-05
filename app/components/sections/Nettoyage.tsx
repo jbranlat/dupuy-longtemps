@@ -7,31 +7,31 @@ export default function EtudeDeCas() {
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div className="flex flex-col justify-center">
-            <span className="inline-block px-4 py-1.5 bg-clim-palmier/10 text-clim-palmier text-sm font-bold tracking-wide rounded-full w-max mb-6">
+            <span className="inline-block px-4 py-1.5 bg-plomb-base/10 text-plomb-base text-sm font-bold tracking-wide rounded-full w-max mb-6">
               Étude de cas
             </span>
             <h3 className="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-6 leading-tight">
               Nettoyage en profondeur climatisation
             </h3>
-            <div className="w-20 h-1.5 bg-clim-palmier rounded-full mb-8"></div>
+            <div className="w-20 h-1.5 bg-plomb-base rounded-full mb-8"></div>
             <p className="text-gray-600 text-lg leading-relaxed mb-8">
               "Notre client nous a contacté pour une baisse de performance de son installation de climatisation malgré un nettoyage régulier des filtres des unités intérieures. Nous lui avons donc proposé un nettoyage en profondeur des unités intérieures via un nettoyage sous pression très efficace dans ce genre de situation. Grâce à cette intervention, le client a pu retrouver un fonctionnement optimal de son installation."
             </p>
             <ul className="space-y-4">
               <li className="flex items-center text-slate-900 font-medium">
-                <svg className="w-6 h-6 text-clim-palmier mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className="w-6 h-6 text-plomb-base mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
                 Nettoyage sous pression haute efficacité
               </li>
               <li className="flex items-center text-slate-900 font-medium">
-                <svg className="w-6 h-6 text-clim-palmier mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className="w-6 h-6 text-plomb-base mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
                 Performances thermiques restaurées
               </li>
               <li className="flex items-center text-slate-900 font-medium">
-                <svg className="w-6 h-6 text-clim-palmier mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className="w-6 h-6 text-plomb-base mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
                 Qualité de l'air intérieur améliorée
@@ -73,7 +73,7 @@ export default function EtudeDeCas() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
               <div className="absolute bottom-3 left-4">
-                <span className="bg-clim-palmier text-white px-2 py-1 rounded-md text-xs font-bold">Pendant</span>
+                <span className="bg-plomb-base text-white px-2 py-1 rounded-md text-xs font-bold">Pendant</span>
               </div>
             </div>
           </div>

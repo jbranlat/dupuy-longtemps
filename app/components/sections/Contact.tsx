@@ -84,7 +84,7 @@ export default function Contact() {
                                 <div className="flex flex-col">
                                     <p className="text-sm text-slate-200 uppercase tracking-widest font-bold mb-1">Horaires d'ouverture</p>
                                     <div className="text-lg font-bold leading-tight space-y-1">
-                                        <p>Lun - Ven : <span className="text-clim-neon">08:00 – 18:00</span></p>
+                                        <p>Lun - Ven : <span className="text-plomb-eau">08:00 – 18:00</span></p>
                                         <p className="text-slate-200 font-medium text-base">Samedi - Dimanche : Fermé</p>
                                     </div>
                                 </div>
@@ -98,27 +98,27 @@ export default function Contact() {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div className="space-y-2">
                                     <label className="text-sm font-bold text-slate-700 ml-1">Nom Prénom</label>
-                                    <input name="name" type="text" required className="w-full px-6 py-4 rounded-2xl bg-slate-100 border-none focus:ring-2 focus:ring-clim-palmier outline-none transition-all" />
+                                    <input name="name" type="text" required className="w-full px-6 py-4 rounded-2xl bg-slate-100 border-none focus:ring-2 focus:ring-plomb-base outline-none transition-all" />
                                 </div>
                                 <div className="space-y-2">
                                     <label className="text-sm font-bold text-slate-700 ml-1">Téléphone</label>
-                                    <input name="phone" type="tel" required className="w-full px-6 py-4 rounded-2xl bg-slate-100 border-none focus:ring-2 focus:ring-clim-palmier outline-none transition-all" />
+                                    <input name="phone" type="tel" required className="w-full px-6 py-4 rounded-2xl bg-slate-100 border-none focus:ring-2 focus:ring-plomb-base outline-none transition-all" />
                                 </div>
                             </div>
                             
                             <div className="space-y-2">
                                 <label className="text-sm font-bold text-slate-700 ml-1">Adresse E-mail</label>
-                                <input name="email" type="email" required className="w-full px-6 py-4 rounded-2xl bg-slate-100 border-none focus:ring-2 focus:ring-clim-palmier outline-none transition-all" />
+                                <input name="email" type="email" required className="w-full px-6 py-4 rounded-2xl bg-slate-100 border-none focus:ring-2 focus:ring-plomb-base outline-none transition-all" />
                             </div>
 
                             <div className="space-y-2">
                                 <label className="text-sm font-bold text-slate-700 ml-1">Adresse Postale</label>
-                                <input name="address" type="text" className="w-full px-6 py-4 rounded-2xl bg-slate-100 border-none focus:ring-2 focus:ring-clim-palmier outline-none transition-all" />
+                                <input name="address" type="text" className="w-full px-6 py-4 rounded-2xl bg-slate-100 border-none focus:ring-2 focus:ring-plomb-base outline-none transition-all" />
                             </div>
 
                             <div className="space-y-2">
                                 <label className="text-sm font-bold text-slate-700 ml-1">Type de demande</label>
-                                <select name="service" className="w-full px-6 py-4 rounded-2xl bg-slate-100 border-none focus:ring-2 focus:ring-clim-palmier outline-none transition-all appearance-none cursor-pointer">
+                                <select name="service" className="w-full px-6 py-4 rounded-2xl bg-slate-100 border-none focus:ring-2 focus:ring-plomb-base outline-none transition-all appearance-none cursor-pointer">
                                     <option value="Installation">Installation</option>
                                     <option value="Dépannage">Dépannage / Réparation</option>
                                     <option value="Entretien">Entretien annuel</option>
@@ -128,7 +128,7 @@ export default function Contact() {
 
                             <div className="space-y-2">
                                 <label className="text-sm font-bold text-slate-700 ml-1">Message</label>
-                                <textarea name="message" rows={4} placeholder="Décrivez votre projet..." className="w-full px-6 py-4 rounded-2xl bg-slate-100 border-none focus:ring-2 focus:ring-clim-palmier outline-none transition-all resize-none"></textarea>
+                                <textarea name="message" rows={4} placeholder="Décrivez votre projet..." className="w-full px-6 py-4 rounded-2xl bg-slate-100 border-none focus:ring-2 focus:ring-plomb-base outline-none transition-all resize-none"></textarea>
                             </div>
 
                             <button 

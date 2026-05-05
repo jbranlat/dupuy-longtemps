@@ -64,7 +64,7 @@ export default function Solutions() {
         <div className="text-center mb-20">
           <FocusTitle>
             <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4">
-                Nos solutions de <span className="text-clim-neon">climatisation & ventilation</span>
+                Nos solutions de <span className="text-plomb-eau">climatisation & ventilation</span>
             </h2>
           </FocusTitle>
           <p className="text-lg text-gray-500 max-w-3xl mx-auto">

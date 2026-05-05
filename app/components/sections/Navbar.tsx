@@ -89,8 +89,8 @@ export default function Navbar() {
             <div className={`fixed top-0 right-0 h-full w-[280px] sm:w-[350px] bg-slate-950 z-[80] shadow-2xl transform transition-transform duration-300 ease-in-out ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
 
                 <div className="flex justify-between items-center p-6 border-b border-white/5">
-                    <span className="font-bold text-clim-neon uppercase tracking-widest text-xs">Menu</span>
-                    <button onClick={() => setIsOpen(false)} className="text-white hover:text-clim-neon transition-colors">
+                    <span className="font-bold text-plomb-eau uppercase tracking-widest text-xs">Menu</span>
+                    <button onClick={() => setIsOpen(false)} className="text-white hover:text-plomb-eau transition-colors">
                         <X size={28} />
                     </button>
                 </div>
