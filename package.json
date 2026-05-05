@@ -1,5 +1,5 @@
 {
-  "name": "dsg-clim",
+  "name": "dupuy-longtemps",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,6 +11,7 @@
   "dependencies": {
     "embla-carousel-react": "^8.6.0",
     "framer-motion": "^12.38.0",
+    "googleapis": "^171.4.0",
     "lucide-react": "^1.7.0",
     "next": "16.2.3",
     "nodemailer": "^8.0.5",

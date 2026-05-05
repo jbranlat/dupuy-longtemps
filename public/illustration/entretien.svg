@@ -1,6 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-  <rect x="3" y="4" width="18" height="16" rx="2" stroke="#0B1B3D" />
-  <circle cx="12" cy="12" r="5" stroke="#0B1B3D" />
-  <path d="M12 7L12 17M7 12L17 12" stroke="#0B1B3D" />
-  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-4-4" stroke="#7AC142" stroke-width="2" />
+<svg width="48" height="48" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Flèche circulaire de maintenance (Agrandie pour occuper l'espace) -->
+  <path 
+    d="M15 50C15 30.67 30.67 15 50 15C69.33 15 85 30.67 85 50C85 69.33 69.33 85 50 85" 
+    stroke="#001F3F" 
+    stroke-width="6" 
+    stroke-linecap="round" 
+    stroke-linejoin="round"
+  />
+  
+  <!-- Pointe de la flèche plus marquée -->
+  <path 
+    d="M40 76L50 85L40 94" 
+    stroke="#001F3F" 
+    stroke-width="6" 
+    stroke-linecap="round" 
+    stroke-linejoin="round"
+  />
+
+  <!-- Écrou central plus imposant -->
+  <path 
+    d="M50 35L62.99 42.5V57.5L50 65L37.01 57.5V42.5L50 35Z" 
+    stroke="#001F3F" 
+    stroke-width="6" 
+    stroke-linecap="round" 
+    stroke-linejoin="round"
+  />
+  
+  <!-- Centre de l'écrou -->
+  <circle cx="50" cy="50" r="6" stroke="#001F3F" stroke-width="4"/>
 </svg>

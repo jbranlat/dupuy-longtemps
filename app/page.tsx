@@ -14,11 +14,11 @@ export default function Home() {
   return (
     <main>
       <Hero/>
-      <GoogleReviews />
       <Services />
-      <Solutions />
+{/*      <Solutions /> */}
       <Realisation />
-      <Nettoyage />
+{/*        <Nettoyage />
+      <GoogleReviews />*/}
       <Contact />
       <Footer />
     </main>

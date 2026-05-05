@@ -1,31 +1,34 @@
 @import "tailwindcss";
+
 @theme {
-  --color-clim-neon: #7AC142;
-  --color-clim-palmier: #166534;
-  --color-clim-base: #081c2c;
-  --color-clim-accents: #a3e635;
-  --color-clim-dark: #051b0d;
+  /* Bleu "Eau Vive" - Frais et propre */
+  --color-plomb-eau: #0077b6;
+  
+  /* Bleu "Tuyauterie" - Sombre et pro */
+  --color-plomb-base: #023e8a;
+  
+  /* Orange "Urgence" - Pour les fuites et boutons d'action */
+  --color-plomb-accent: #f97316;
+  
+  /* Cyan "Sain" - Pour les petites touches de finition */
+  --color-plomb-light: #caf0f8;
+  
+  /* Noir Profond - Pour les textes et zones sombres */
+  --color-plomb-dark: #001219;
 }
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #001219; /* On utilise le noir profond pour le texte */
 }
 
-.custom-scrollbar::-webkit-scrollbar {
-  width: 4px;
-}
-
-.custom-scrollbar::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 10px;
-}
-
+/* Mise à jour de la scrollbar pour qu'elle soit assortie au bleu plombier */
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background: #3b82f6;
+  background: var(--color-plomb-eau);
   border-radius: 10px;
 }
 
+/* Le reste de tes animations reste identique */
 @keyframes scroll {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }

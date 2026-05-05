@@ -16,12 +16,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DSG CLIM 13",
-  description: "DSG CLIM 13",
+  title: "DUPUY Longtemps - Plombier chauffagiste sur Pessac / Bordeaux",
+  description: "DUPUY Longtemps - Plombier chauffagiste sur Pessac / Bordeaux",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "DSG CLIM 13",
+    title: "DUPUY Longtemps - Plombier chauffagiste sur Pessac / Bordeaux",
   },
   icons: {
     apple: "/apple-touch-icon.png",
@@ -41,7 +41,6 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col bg-slate-950">
 
         <Navbar />
-        <div className="md:h-16" />
         <FloatingContact />
         <main className="flex-grow">
           {children}

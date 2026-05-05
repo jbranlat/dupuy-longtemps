@@ -9,7 +9,7 @@ export default function MentionsLegales() {
 
                 <div className="max-w-3xl mb-16 mx-auto text-center animate-in fade-in slide-in-from-bottom-5 duration-1000">
                     <h1 className="text-4xl md:text-6xl font-bold text-slate-900 leading-tight mb-6">
-                        Mentions <span className="text-clim-palmier uppercase">Légales</span>
+                        Mentions <span className="text-plomb-base uppercase">Légales</span>
                     </h1>
                     <p className="text-slate-500 max-w-2xl mx-auto">
                         Conformément aux dispositions des articles 6-III et 19 de la Loi n° 2004-575 du 21 juin 2004 pour la Confiance dans l'économie numérique, dite L.C.E.N., il est porté à la connaissance des utilisateurs et visiteurs du site les présentes mentions légales.
@@ -23,25 +23,25 @@ export default function MentionsLegales() {
                             1. Éditeur du site
                         </h2>
                         <div className="grid grid-cols-1 md:grid-cols-1 gap-6 text-sm text-slate-600">
-                            <p>Le présent site est édité par l'entreprise <strong className="text-slate-900 uppercase text-xs">DSG CLIM 13</strong></p>
-                            <p><strong className="text-slate-900 uppercase text-xs">Forme Juridique : </strong>Société à responsabilité limitée à associé unique (SARLU ou EURL)</p>
-                            <p><strong className="text-slate-900 uppercase text-xs">Capital social : </strong> 1000 EUR </p>
-                            <p><strong className="text-slate-900 uppercase text-xs">Siège Social : </strong>83 BOULEVARD DU REDON, Super Rouvière B11, 13009 Marseille 9e Arrondissement, FRANCE</p>
-                            <p><strong className="text-slate-900 uppercase text-xs">Numéro SIREN : </strong>993 686 732</p>
-                            <p><strong className="text-slate-900 uppercase text-xs">Numéro SIRET (siège) :</strong>993 686 732 00013</p>
-                            <p><strong className="text-slate-900 uppercase text-xs">Activité principale : </strong> L'installation, la maintenance et le dépannage d'équipements thermiques et de climatisation. </p>
-                            <p><strong className="text-slate-900 uppercase text-xs">Code APE :</strong> 43.22B - Travaux d'installation d'équipements thermiques et de climatisation</p>
-                            <p><strong className="text-slate-900 uppercase text-xs">Code APRM :</strong> 43.22B-A - Installation et entretien de climatisation et chaufferie</p>
-                            <p><strong className="text-slate-900 uppercase text-xs">Immatriculation :</strong> Entreprise immatriculée au Registre National des Entreprises (RNE) depuis le 20/11/2025 au titre d'une activité artisanale règlementée.</p>
-                            <p><strong className="text-slate-900 uppercase text-xs">Téléphone :</strong> 06 20 74 68 89 / 07 49 11 03 73</p>
-                            <p><strong className="text-slate-900 uppercase text-xs">Adresse e-mail :</strong> dsgclim13@gmail.com </p>
+                            <p>Le présent site est édité par l'entreprise <strong className="text-slate-900 uppercase text-xs">DUPUY LONGTEMPS</strong></p>
+                            <p><strong className="text-slate-900 uppercase text-xs">Forme Juridique : </strong>Société à responsabilité limitée (SARL)</p>
+                            <p><strong className="text-slate-900 uppercase text-xs">Capital social : </strong> 100 EUR </p>
+                            <p><strong className="text-slate-900 uppercase text-xs">Siège Social : </strong>13 AVENUE JEAN BART, 33600 PESSAC, FRANCE</p>
+                            <p><strong className="text-slate-900 uppercase text-xs">Numéro SIREN : </strong>948 762 547</p>
+                            <p><strong className="text-slate-900 uppercase text-xs">Numéro SIRET (siège) :</strong>948 762 547 00024</p>
+                            <p><strong className="text-slate-900 uppercase text-xs">Activité principale : </strong>Travaux de plomberie, chauffage, assainissement </p>
+                            <p><strong className="text-slate-900 uppercase text-xs">Code APE :</strong>4322A - Travaux d'installation d'eau et de gaz en tous locaux</p>
+                            <p><strong className="text-slate-900 uppercase text-xs">Code APRM :</strong>43.22A-Z - Travaux d'installation d'eau et de gaz en tous locaux</p>
+                            <p><strong className="text-slate-900 uppercase text-xs">Immatriculation :</strong> Entreprise immatriculée au Registre National des Entreprises (RNE) depuis le 22/02/2023 au titre d'une activité artisanale règlementée.</p>
+                            <p><strong className="text-slate-900 uppercase text-xs">Téléphone :</strong> 06 68 97 30 86</p>
+                            <p><strong className="text-slate-900 uppercase text-xs">Adresse e-mail :</strong> gabriel.dupuy@gmail.com </p>
                         </div>
                     </section>
 
                     <section className="bg-slate-50 p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
                         <h2 className="text-xl font-bold text-slate-900 mb-6 flex items-center gap-3">2. Directeur de la publication </h2>
                         <div className="grid grid-cols-1 md:grid-cols-1 gap-6 text-sm text-slate-600">
-                            <p><strong className="text-slate-900 uppercase text-xs">Directeur de la publication : </strong>GAMBICKY DANN MARLON</p>
+                            <p><strong className="text-slate-900 uppercase text-xs">Directeur de la publication : </strong>GABRIEL DUPUY</p>
                             <p><strong className="text-slate-900 uppercase text-xs">Qualité : </strong>Gérant </p>
                         </div>
                     </section>
@@ -80,7 +80,7 @@ export default function MentionsLegales() {
                         <h2 className="text-xl font-bold text-slate-900 mb-4">6. Protection des données personnelles (RGPD)</h2>
                         <div className="grid grid-cols-1 md:grid-cols-1 gap-6 text-sm text-slate-600">
                             <p className="text-sm text-slate-600 leading-relaxed">
-                                L'entreprise <strong className="text-slate-900 uppercase text-xs">DSG CLIM 13</strong> s'engage à ce que la collecte et le traitement de vos données, effectués à partir du présent site, soient conformes au règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés.
+                                L'entreprise <strong className="text-slate-900 uppercase text-xs">DUPUY LONGTEMPS</strong> s'engage à ce que la collecte et le traitement de vos données, effectués à partir du présent site, soient conformes au règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés.
                             </p>
                             <p className="text-sm text-slate-600 leading-relaxed">
                                 Il est par ailleurs rappelé que, conformément à l'article 21 du règlement européen 2016/679 (RGPD) et à l'article R. 123-320 du code de commerce, le déclarant de l'entreprise s'est opposé à la mise à disposition de ses propres données à des fins de prospection.

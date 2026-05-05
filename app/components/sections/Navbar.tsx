@@ -19,7 +19,6 @@ export default function Navbar() {
     const menuLinks = [
         { name: 'Accueil', href: '/' },
         { name: 'Prestations', href: '/#prestations' },
-        { name: 'Solutions', href: '/#solutions' },
         { name: 'Réalisations', href: '/#realisations' },
         { name: 'Contact & Devis', href: '/#contact' },
     ];
@@ -30,21 +29,21 @@ export default function Navbar() {
             <button
                 onClick={() => setIsOpen(true)}
                 className="md:hidden fixed top-6 right-6 z-[60] p-3 rounded-full transition-all duration-300 group
-    bg-clim-dark/60 backdrop-blur-md border border-white/10 hover:border-clim-neon/50 
+    bg-plomb-dark/60 backdrop-blur-md border border-white/10 hover:border-plomb-eau/50 
     hover:scale-110 active:scale-95 shadow-xl shadow-black/20"
                 aria-label="Ouvrir le menu"
             >
 
                 <Menu
                     size={24}
-                    className="text-white transition-colors group-hover:text-clim-neon"
+                    className="text-white transition-colors group-hover:text-plomb-eau"
                 />
             </button>
 
             {/* 2. LA BARRE DE NAVIGATION (Ordinateur uniquement : hidden md:block) */}
             <nav
                 className={`hidden md:block fixed top-0 left-0 w-full z-[50] transition-all duration-500 ease-in-out 
-          bg-clim-dark/60 backdrop-blur-md border-b border-white/10 ${scrolled ? 'py-2' : 'py-5'
+          bg-plomb-dark/20 backdrop-blur-md border-b border-white/10 ${scrolled ? 'py-2' : 'py-5'
                     }`}
             >
                 <div className="container mx-auto px-6 flex justify-between items-center">
@@ -56,7 +55,7 @@ export default function Navbar() {
                             }`}
                     >
                         <Image
-                            src="/logo/LogoDSGclim2.png"
+                            src="/logo/Logo.png"
                             alt="Logo"
                             fill
                             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -71,7 +70,7 @@ export default function Navbar() {
                             <a
                                 key={link.name}
                                 href={link.href}
-                                className="text-[11px] font-bold text-white uppercase tracking-[0.2em] hover:text-clim-neon transition-colors"
+                                className="text-[11px] font-bold text-white uppercase tracking-[0.2em] hover:text-plomb-eau transition-colors"
                             >
                                 {link.name}
                             </a>

@@ -1,0 +1,17 @@
+<svg width="48" height="48" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Corps principal de la chaudière avec bords arrondis - AGRANDI -->
+  <rect x="20" y="10" width="60" height="80" rx="8" stroke="#001F3F" stroke-width="5" stroke-linejoin="round"/>
+  
+  <!-- Écran de contrôle / Interface - REPOSITIONNÉ et AGRANDI -->
+  <rect x="30" y="25" width="40" height="20" rx="3" fill="#CBD5E1"/>
+  
+  <!-- Ligne de séparation technique (similaire au logo clim) - REPOSITIONNÉE -->
+  <line x1="35" y1="35" x2="65" y2="35" stroke="#001F3F" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Sorties de tuyauterie sur le dessus - ÉLARGIES et REPOSITIONNÉES -->
+  <path d="M30 10V4M50 10V2M70 10V4" stroke="#001F3F" stroke-width="5" stroke-linecap="round"/>
+  
+  <!-- Manomètre / Bouton de réglage en bas - REPOSITIONNÉ et AGRANDI -->
+  <circle cx="50" cy="70" r="8" stroke="#001F3F" stroke-width="4"/>
+  <path d="M50 70L54 66" stroke="#001F3F" stroke-width="3" stroke-linecap="round"/>
+</svg>

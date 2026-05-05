@@ -11,7 +11,7 @@ export default function Confidentialite() {
                 {/* En-tête de la page */}
                 <div className="max-w-3xl mb-16 mx-auto text-center animate-in fade-in slide-in-from-bottom-5 duration-1000">
                     <h1 className="text-4xl md:text-6xl font-bold text-slate-900 leading-tight mb-6">
-                        Politique de <span className="text-clim-palmier uppercase">Confidentialité</span>
+                        Politique de <span className="text-plomb-base uppercase">Confidentialité</span>
                     </h1>
                     <p className="text-slate-500 max-w-2xl mx-auto italic">
                         Dernière mise à jour : {new Date().toLocaleDateString('fr-FR')}
@@ -26,7 +26,7 @@ export default function Confidentialite() {
                             1. Introduction
                         </h2>
                         <p className="text-sm text-slate-600 leading-relaxed">
-                            L'entreprise <strong className="text-slate-900 uppercase text-xs">DSG CLIM 13</strong> accorde une importance capitale à la protection de votre vie privée. Cette politique a pour but de vous informer sur la manière dont nous traitons vos données personnelles lors de votre visite sur notre site.
+                            L'entreprise <strong className="text-slate-900 uppercase text-xs">DUPUY LONGTEMPS</strong> accorde une importance capitale à la protection de votre vie privée. Cette politique a pour but de vous informer sur la manière dont nous traitons vos données personnelles lors de votre visite sur notre site.
                         </p>
                     </section>
 
@@ -78,7 +78,7 @@ export default function Confidentialite() {
                                 Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez d'un droit d'accès, de rectification, de suppression et d'opposition au traitement de vos données.
                             </p>
                             <p>
-                                Pour exercer ces droits, vous pouvez nous contacter à tout moment par email : <strong className="text-slate-900">dsgclim13@gmail.com</strong>
+                                Pour exercer ces droits, vous pouvez nous contacter à tout moment par email : <strong className="text-slate-900">gabriel.dupuy@gmail.com</strong>
                             </p>
                         </div>
                     </section>
