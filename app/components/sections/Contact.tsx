@@ -53,7 +53,7 @@ export default function Contact() {
                         Besoin de <span className="text-plomb-eau">nous contacter?</span>
                         </h2>
                         <p className="text-slate-300 text-lg mb-10 max-w-md">
-                            Nous intervenons rapidement à Bordeaux et dans ses alentours pour vos projets de climatisation.
+                            Nous intervenons rapidement à Bordeaux et dans ses alentours pour vos différents projets ou vos urgences.
                         </p>
 
                         <div className="space-y-8">
